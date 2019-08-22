@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application Dicoding</string>
+    <string name="club_name">Club Name</string>
+    <string name="club_from">Club From</string>
+    <string name="club_league">Club League</string>
+    <string name="about">About</string>
+</resources>
