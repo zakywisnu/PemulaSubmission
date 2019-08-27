@@ -1,11 +1,21 @@
 package com.example.zakywisnu.myapplicationdicoding;
 
 public class Club {
+    private int picture;
     private String name;
     private String from;
     private String league;
     private String photo;
     private String description;
+
+    public Club(int picture, String name, String from, String league, String description, String photo){
+        this.picture = picture;
+        this.name = name;
+        this.from = from;
+        this.league = league;
+        this.description = description;
+        this.photo = photo;
+    }
 
     public String getDescription() {
         return description;
@@ -40,9 +50,17 @@ public class Club {
     }
 
     public String getPhoto() {
-        return photo;
+        return photo;}
+
+    public int getPicture() {
+        return picture;
     }
 
+    public void setPicture(int picture) {
+        this.picture = picture;
+    }
+
+//
     public void setPhoto(String photo) {
         this.photo = photo;
     }
